@@ -1,0 +1,17 @@
+# ไม่เอาโฟลเดอร์ node_modules (เพราะขนาดใหญ่มาก และลงใหม่ได้เสมอ)
+node_modules/
+*/node_modules/
+
+# ไม่เอาไฟล์ .env (เพราะเก็บรหัสผ่านหรือความลับ)
+.env
+*.env
+
+# ไม่เอาไฟล์ Log ต่างๆ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ไม่เอาโฟลเดอร์ที่ Build แล้ว (ถ้ามี)
+dist/
+build/
+.DS_Store
